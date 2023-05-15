@@ -26,6 +26,11 @@ interface IResourceCatalogSubjectCategory
         'DTJXJGRXX' => 57,
         'XSPJXX' => 60,
         'XYTXHMD' => 68,
+        'XZCJ'=>92,
+        'XZJDJC'=>93,
+        'XZJL'=>94,
+        'XZQR'=>95,
+        'XZQZ'=>96,
     ];
     // 企业
     const RESOURCE_CATALOG_ENTERPRISE = [
@@ -78,13 +83,8 @@ interface IResourceCatalogSubjectCategory
         'FDCKFQYZZXX' => 66,
         'JGRYXXSFGJ' => 67,
         'SYDWJBXX' => 69,
-        'XZQZXX' => 70,
         'XZZSXX' => 71,
-        'XZCJXX' => 72,
-        'XZQRXX' => 73,
         'XZJFXX' => 74,
-        'JDJCXX' => 75,
-        'XZJLXX' => 76,
         'QTXZZFXX' => 77,
         'HEIMDXX' => 78,
         'HONGMDXX' => 79,
@@ -100,5 +100,10 @@ interface IResourceCatalogSubjectCategory
         'CCJCJG'=>89,
         'XYSFSQ'=>90,
         'QYFRGGXYZHPJJG' => 91,
+        'XZCJ'=>92,
+        'XZJDJC'=>93,
+        'XZJL'=>94,
+        'XZQR'=>95,
+        'XZQZ'=>96,
     ];
 }
