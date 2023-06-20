@@ -112,6 +112,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['XZJDJC'],
             self::TYPE['XZCJ'],
         ),
+        //因验收同步了吕梁的资源目录数据, 现同步的数据所归属的资源目录(A级纳税人信息, 重大税收违法案件信息, 失信被执行机构信息)还未开发, 先将这三个资源目录归属到发改委下, 等后面资源目录开发完成后, 牵扯到数据还需要将此前的数据移植到对应的委办局下
         IUserGroup::ID['FGW'] => array(
             self::TYPE['JGJCDXZJL'],
             self::TYPE['SJJXMXX'],
@@ -126,6 +127,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['QYHYSJ'],
             self::TYPE['TEST'],
             self::TYPE['QYFRGGXYZHPJJG'],
+
+            self::TYPE['AJNSRXX'],
+            self::TYPE['ZDSSWFAJXX'],
+            self::TYPE['SXBZXJGXX'],
         ),
         IUserGroup::ID['XCZJ'] => array(
             self::TYPE['ZFCGDLJGXX'],
